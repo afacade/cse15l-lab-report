@@ -51,7 +51,7 @@ Afterwards, you can some of these commands on your **personal computer** and the
 * `ls -a` : this commands only list `a` all files
 * ![img13](Screen Shot 2023-04-24 at 9.42.13 PM.png)
 * `cat /home/linux/ieng6/cs15lsp23/public/hello.txt` : this command reads and output line by line in the file `hello.txt`
-* ~[img14](Screen Shot 2023-04-24 at 9.42.31 PM.png)
+* ![img14](Screen Shot 2023-04-24 at 9.42.31 PM.png)
   
 Then, to log out of the remote computer on your personal computer's terminal
   
