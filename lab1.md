@@ -4,7 +4,7 @@ you downloaded and following the installation instructions.
 
 * Download the most recent stable build by clicking in the box marked in red.
 ![img](Screen Shot 2023-04-24 at 9.17.52 PM.png)
-* Next, extract the application from the zip file you just download and run it.
+* Next, extract the application from the zip file you've downloaded and run it.
 * You're done, VSCode should set up the default environment automatically!
 
 Aftewards your VSCode should look like this 
@@ -43,15 +43,17 @@ If you receive this error message, inquire your TA about this. This is completel
 
 Afterwards, you can some of these commands on your **personal computer** and the **remote computer**
 
-* cd ~
-* cd
-* ls -lat
-* ls -a
-* ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username
-* cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
-* cat /home/linux/ieng6/cs15lsp23/public/hello.txt
+* `cd ~` : this command will take you back to your Home folder.
+* ![img11](Screen Shot 2023-04-24 at 9.34.52 PM.png)
+* `cd` : if you've noticed the output, this command acts the same way as the one above.
+* `ls -lat` : this commands list `a` all files, in `l` long format, sorted by `t` date and time.
+* ![img12](Screen Shot 2023-04-24 at 9.41.54 PM.png)
+* `ls -a` : this commands only list `a` all files
+* ![img13](Screen Shot 2023-04-24 at 9.42.13 PM.png)
+* `cat /home/linux/ieng6/cs15lsp23/public/hello.txt` : this command reads and output line by line in the file `hello.txt`
+* ~[img14](Screen Shot 2023-04-24 at 9.42.31 PM.png)
   
 Then, to log out of the remote computer on your personal computer's terminal
   
-* Ctrl D
-* type "exit"
+* `Ctrl D`
+* type `exit`
