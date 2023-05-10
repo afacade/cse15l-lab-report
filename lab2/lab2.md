@@ -3,7 +3,30 @@
 # Part 1 - String Server
 Create a web server named "StringServer" which has the ability to follow the specified path and actions. The server should maintain a single string that receives updates from incoming requests. The format of the requests should be as follows:
 
-`/add-message?s=<string>`
+```
+/add-message?s=anystring
+```
+This concatenates a new line `\n` and the string that was inputted after the `=` onto the entire string.
+The going to the home page with `\` should show
+
+
+```
+anystring
+```
+
+Then if you add another message
+
+```
+add-message?s=anotherone
+```
+
+Then the home page should show
+
+```
+anystring
+anotherone
+
+```
 
 For example: 
 
