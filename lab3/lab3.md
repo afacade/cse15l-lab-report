@@ -14,7 +14,7 @@ Current folder hierarchy:
     - lab3.md
 
 
-# Example 1: "pattern" /path/to/directory
+# Example 1: ack "pattern" /path/to/directory
 
 ```
 Input: ack "WE HAVE SOME PLANES" technical/911report
@@ -34,6 +34,9 @@ Output: journal.pbio.0020001.txt
 
 Explanation: The `ack` command, also known as "ack-grep," is a tool specifically designed for code searching. It searches files and directories for patterns, excluding non-text files and version control directories by default. It supports Perl-compatible regular expressions and provides color highlighting.
 
+Source: ChatGPT
+
+![img10](Screen Shot 2023-05-19 at 10.37.33 PM.png)
 
 # Example 2: ag "pattern" /path/to/directory
 
@@ -53,8 +56,11 @@ Output: technical/911report/chapter-13.5.txt
 
 ![img2](Screen Shot 2023-05-11 at 5.35.01 PM.png)
 
-Explanation: The `ag` command, also known as "The Silver Searcher," is a code searching tool that aims to be faster than grep. It ignores files and directories by default that are typically not useful in code searching, such as binary files and version control directories. Example usage:
+Explanation: The `ag` command, also known as "The Silver Searcher," is a code searching tool that aims to be faster than grep. It ignores files and directories by default that are typically not useful in code searching, such as binary files and version control directories. 
 
+Source: ChatGPT
+
+![img11](Screen Shot 2023-05-19 at 10.38.00 PM.png)
 
 # Example 3: rg "pattern" /path/to/directory
 
@@ -72,7 +78,11 @@ Output: 4:            FROM THREAT TO THREAT
 ![img3](Screen Shot 2023-05-11 at 5.40.09 PM.png)
 
 
-Explanation: The `ripgrep` command, also known as rg, is a line-oriented search tool that recursively searches directories for a specified pattern. It is designed to be fast and efficient, and it supports searching with Perl-compatible regular expressions. Example usage:
+Explanation: The `ripgrep` command, also known as rg, is a line-oriented search tool that recursively searches directories for a specified pattern. It is designed to be fast and efficient, and it supports searching with Perl-compatible regular expressions. It also supports Perl-compatible regular expressions and provides color highlighting.
+
+Source: ChatGPT
+
+![img12](Screen Shot 2023-05-19 at 10.38.47 PM.png)
 
 # Example 4: perl -ne 'print if /pattern/'  /path/to/file.txt
 
@@ -89,3 +99,7 @@ Output:            FROM THREAT TO THREAT
 ![img4](Screen Shot 2023-05-11 at 5.45.45 PM.png)
 
 Explanation:  The `perl` command is a versatile scripting language that provides extensive text processing capabilities. It supports regular expressions and can be used for advanced pattern matching and text manipulation tasks. `-n` causes Perl to assume the following loop around your program, which makes it iterate over file name arguments somewhat like sed -n or awk. -e is used to enter one line of program, in other words, specify line by line.
+
+Source: ChatGPT
+
+![img14](Screen Shot 2023-05-19 at 10.39.21 PM.png)
