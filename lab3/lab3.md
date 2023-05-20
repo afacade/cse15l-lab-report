@@ -85,6 +85,7 @@ Output: 1. Muhammad Mani Ahmad al Kahtani. Currently in custody, he is the last 
 Input: perl -ne 'print if /FROM THREAT TO THREAT/' technical/911report/chapter-6.txt
 Output:            FROM THREAT TO THREAT
 ```
+
 ![img4](Screen Shot 2023-05-11 at 5.45.45 PM.png)
 
 Explanation:  The `perl` command is a versatile scripting language that provides extensive text processing capabilities. It supports regular expressions and can be used for advanced pattern matching and text manipulation tasks. `-n` causes Perl to assume the following loop around your program, which makes it iterate over file name arguments somewhat like sed -n or awk. -e is used to enter one line of program, in other words, specify line by line.
