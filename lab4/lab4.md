@@ -1,4 +1,4 @@
-# Step 4
+# Step 43423342
 Since I logged in prevously, I pressed `<up><up` twice, passing the `exit` command, to get my login info `ssh cs15lsp23kq@ieng6-202.ucsd.edu`. Then I typed in my password to log in. 
 
 ![img1](Screen Shot 2023-06-07 at 7.01.30 PM.png)
