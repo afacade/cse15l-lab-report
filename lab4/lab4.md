@@ -1,4 +1,4 @@
-# Step 43423342
+# Step 4
 Since I logged in prevously, I pressed `<up><up` twice, passing the `exit` command, to get my login info `ssh cs15lsp23kq@ieng6-202.ucsd.edu`. Then I typed in my password to log in. 
 
 ![img1](Screen Shot 2023-06-07 at 7.01.30 PM.png)
@@ -29,7 +29,7 @@ To run the tests again, I recompiled the tests by typing `<up><up><up><enter>`. 
 ![img5](Screen Shot 2023-06-07 at 7.29.04 PM.png)
 
 # Step 9
-In this final step, I needed to commit this file into my forked repository. So then, I typed `git add ListExamples.java` and `<enter>. Then to commit, I typed `git commit -m "Update"` and pressed `<enter>`.
+In this final step, I needed to commit this file into my forked repository. So then, I typed `git add ListExamples.java` and `<enter>`. Then to commit, I typed `git commit -m "Update"` and pressed `<enter>`.
 
 ![img6](Screen Shot 2023-06-07 at 7.32.50 PM.png)
 
